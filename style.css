@@ -63,6 +63,14 @@ main {
     text-decoration: none;
 }
 
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .image {
     margin-left: 20px;
 }
