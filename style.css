@@ -51,7 +51,7 @@ main {
 }
 
 .inline-image {
-    width: 50px; /* Adjust the width as needed */
+    width: 150px; /* Adjust the width as needed */
     height: auto;
     margin-left: 10px;
     vertical-align: middle;
