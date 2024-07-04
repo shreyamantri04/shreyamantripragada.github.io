@@ -64,3 +64,48 @@ footer {
     padding: 10px;
     background-color: #333;
 }
+
+/* New styles for the projects grid */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #292929;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-info {
+    padding: 15px;
+}
+
+.project-info h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.project-info p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
