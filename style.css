@@ -1,9 +1,17 @@
-body {
-    font-family: Arial, sans-serif;
-    color: #fff;
-    background-color: #111;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for body and header */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height: 100vh; /* Full viewport height */
 }
 
 header {
@@ -64,7 +72,6 @@ main {
     height: auto;
     margin-left: 10px;
     vertical-align: middle;
-    border-radius: 50%;
     display: inline-block; /* Ensure the image behaves as inline */
 }
 
