@@ -2,9 +2,6 @@ body {
     font-family: Arial, sans-serif;
     color: #fff;
     background-color: #111;
-    margin: 0;
-    padding: 0;
-    overflow-y: scroll;
 }
 
 header {
@@ -34,8 +31,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
-    min-height: calc(100vh - 140px);
+    height: calc(100vh - 140px);
 }
 
 .about {
@@ -82,18 +78,6 @@ footer {
     font-weight: normal;
 }
 
-.language-section {
-    margin-bottom: 40px;
-}
-
-.language-section h2 {
-    font-family: Arial, sans-serif;
-    font-size: 2em;
-    text-align: center;
-    color: #ddd;
-    margin-bottom: 20px;
-}
-
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -106,8 +90,6 @@ footer {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    text-decoration: none;
-    color: inherit;
 }
 
 .project-card img {
@@ -119,7 +101,7 @@ footer {
     padding: 15px;
 }
 
-.project-info h3 {
+.project-info h2 {
     margin-top: 0;
     font-size: 24px;
 }
