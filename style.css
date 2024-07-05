@@ -1,26 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Basic styles for body and header */
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
-    height: 100vh; /* Full viewport height */
+    color: #fff;
+    background-color: #111;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
 }
 
 header {
     background-color: #333;
     padding: 10px 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
 }
 
 nav ul {
@@ -42,13 +31,11 @@ nav a {
 
 main {
     padding: 20px;
-    padding-top: 60px; /* Adjust to prevent content from being hidden behind the header */
-    padding-bottom: 40px; /* Adjust to prevent content from being hidden behind the footer */
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    height: auto;
     min-height: calc(100vh - 140px);
-    box-sizing: border-box;
 }
 
 .about {
@@ -80,10 +67,6 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 1000;
 }
 
 /* New styles for the projects grid */
