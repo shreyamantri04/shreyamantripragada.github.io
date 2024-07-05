@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #292929;
 }
 
 /* Basic styles for body and header */
@@ -73,6 +72,7 @@ main {
     height: auto;
     margin-left: 10px;
     vertical-align: middle;
+    border-radius: 50%;
     display: inline-block; /* Ensure the image behaves as inline */
 }
 
